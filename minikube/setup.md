@@ -15,13 +15,11 @@
 ```
   - Linux
   ```bash
-     curl -Lo minikube
-      https://storage.googleapis.com/minikube/releases/v0.25.2/minikube-darwin-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
+     curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.25.2/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
   ```
   - Windows
   ```bash
-     curl -Lo minikube
-      https://storage.googleapis.com/minikube/releases/v0.25.2/minikube-darwin-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
+     Download the minikube-windows-amd64.exe file, rename it to minikube.exe and add it to your path.
   ```
 
 ## Minikube Commands
