@@ -12,3 +12,5 @@ docker build -t mmaheu/flty .
 docker push mmaheu/flty:latest
 
 docker run
+docker stop
+docker ps
