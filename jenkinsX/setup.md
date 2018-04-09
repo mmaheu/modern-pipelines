@@ -14,20 +14,21 @@ sudo mv jx /usr/local/bin
 3. Windows: Download the binary and add it to your path
 
 ### JX commands
-
-- jx create cluster gke
-- jx get environment or environments
-- jx get apps
-- jx create environment
-- jx rsh
-
+```bash
+jx create cluster gke
+jx get environment or environments
+jx get apps
+jx create environment
+jx rsh
+```
 
 
 ### Pipeline Interaction
-- jx create issue -t 'comments'
-- jx create spring or jx create spring -d web -d actuator
-- jx get build log
-- jx start pipeline codemartians/demo
-
+```bash
+jx create issue -t 'comments'
+jx create spring or jx create spring -d web -d actuator
+jx get build log
+jx start pipeline codemartians/demo
+```
 ## Additional commands with Hub
 - https://hub.github.com/
