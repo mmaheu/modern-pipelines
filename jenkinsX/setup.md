@@ -19,13 +19,15 @@ sudo mv jx /usr/local/bin
 - jx get environment or environments
 - jx get apps
 - jx create environment
+- jx rsh
+
 
 
 ### Pipeline Interaction
 - jx create issue -t 'comments'
 - jx create spring or jx create spring -d web -d actuator
 - jx get build log
-- jx get env
-- jx  get version
 - jx start pipeline codemartians/demo
--
+
+## Additional commands with Hub
+- https://hub.github.com/
