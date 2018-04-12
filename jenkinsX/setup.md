@@ -19,6 +19,8 @@ jx create cluster gke
 jx get environment or environments
 jx get apps
 jx create environment
+jx open --env staging
+jx promote --version v0.0.x --env production --timeout 1h
 jx rsh
 ```
 
@@ -27,6 +29,7 @@ jx rsh
 ```bash
 jx create issue -t 'comments'
 jx create spring or jx create spring -d web -d actuator
+jx import --url git@your_repo.git
 jx get build log
 jx start pipeline codemartians/demo
 ```

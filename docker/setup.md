@@ -8,8 +8,8 @@ https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac
 
 ## Working with images
 
-docker build -t mmaheu/flty .
-docker push mmaheu/flty:latest
+docker build -t mmaheu/nostromo .
+docker push mmaheu/nostromo:latest
 
 docker run
 docker stop
