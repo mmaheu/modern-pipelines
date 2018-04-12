@@ -75,6 +75,8 @@ $ kubectl create secret docker-registry docker-reg-secret \
 
 # Deploy the Jenkins helm chart
 # (same command for install and upgrade)
+$ helm upgrade --install jenkins helm/jenkins-k8s/
+# Or with declared docker reg
 $ helm upgrade --install jenkins \
         --set imagePullSecrets=docker-reg-secret \
         --set image.repository=${DOCKER_REG}/jenkins \
