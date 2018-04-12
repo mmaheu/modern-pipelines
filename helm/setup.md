@@ -12,5 +12,4 @@
 2. helm init (this will install tiller on your K8s)
 3. helm status
 4. helm delete --namespace production  nostromo-narcissus-master-production-nostromo --purge
-5. helm install -f config.yaml stable/mariadb
-6. helm install charts/flty
+5. helm upgrade --install jenkins helm/jenkins-k8s/
